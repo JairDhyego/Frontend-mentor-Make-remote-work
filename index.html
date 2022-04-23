@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body class="bg-slate-100   ">
+    <div class="container  m-auto h-screen w-full	 p-8">
+      <header class="flex w-full p-2  justify-between p-3 text-center ">
+        <div class="logo flex text-center">
+          <div class="cursor-pointer	"> <img class="text-center" src="/images/logo.svg" alt="Logo"> </div>
+
+          <div class=" w-80 flex text-center">
+            <ul class="flex flex-1 ml-8 justify-between text-slate-400 text-center text-center">
+              <li class="cursor-pointer	">Feature</li>
+              <li class="cursor-pointer	">Company</li>
+              <li class="cursor-pointer	">Careears</li>
+              <li class="cursor-pointer	">Sobre</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="conta flex w-40 text-slate-400	">
+          <div class=" flex-1 text-center  mr-6 cursor-pointer	text-center" >Login</div>
+          <div class="register flex-1 border-2 border-slate-400 rounded-3xl  cursor-pointer	 text-center w-3 text-center block ">Register</div> 
+
+        </div>
+
+      </header>
+
+      <!-- MAIN -->
+
+      <main class="flex gap-10 justify-center items-center  ">
+        <div class="text-center flex-1">
+          <h1 class="font-bold text-7xl text-left mt-24 drop-shadow-xl"> <span class="text-right"> Make </span>
+            <br> remote work</h1>
+          <p class="text-left text-slate-400 mt-20	">Get your team in sync, no matter your location.
+            <br>
+            Streamline
+            processes,
+            create team rituals, and
+            <br> watch productivity soar.</p>
+          <div class="mt-8 text-left">
+            <button class="border bg-black rounded-2xl border-none w-40 h-14 text-lg
+              py-2 px-4 text-white cursor-pointer	 hover:opacity-80 transition">Learn more</button>
+          </div>
+
+          <div class="flex mt-48 justify-around" >
+            <img src="./images/client-databiz.svg" alt="">
+            <img src="./images/client-audiophile.svg" alt="">
+            <img src="./images/client-meet.svg" alt="">
+            <img src="./images/client-maker.svg" alt="">
+          </div>
+        </div>
+
+        <div class="flex-1">
+          <div class="fundo flex items-start 	pl-10 h-full"  >
+            <img  class="bg-cover" height="550" width="500"  src="./images/image-hero-desktop.png"
+              alt="principal" />
+          </div>
+        </div>
+
+      </main>
+
+      <!-- FOOTER -->
+
+      <footer class="mt-20 text-center">
+        <div class="font-bold">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Jair Dhyego</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
