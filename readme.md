@@ -9,3 +9,7 @@ Bom dia e um cheiro no coração!
 
 
 Lik do projeto no netflify: https://incredible-shortbread-921621.netlify.app
+
+
+
+Atualizei a parte do css mobile que tava todo errado e agora eu creio que só falta o javascript pra fazer o menu funcionar direitinho, é um processo simples de botão toggle... clica abri, clica fecha.
